@@ -13,6 +13,40 @@
 		D7AD57A81CCF7AB2007E9EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AD57A61CCF7AB2007E9EF3 /* Main.storyboard */; };
 		D7AD57AA1CCF7AB2007E9EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AD57A91CCF7AB2007E9EF3 /* Assets.xcassets */; };
 		D7AD57AD1CCF7AB2007E9EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AD57AB1CCF7AB2007E9EF3 /* LaunchScreen.storyboard */; };
+		D7AD57C51CCF7B4A007E9EF3 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57B51CCF7B4A007E9EF3 /* libavcodec.a */; };
+		D7AD57C61CCF7B4A007E9EF3 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57B61CCF7B4A007E9EF3 /* libavutil.a */; };
+		D7AD57C71CCF7B4A007E9EF3 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57B71CCF7B4A007E9EF3 /* libavformat.a */; };
+		D7AD57C81CCF7B4A007E9EF3 /* libavresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57B81CCF7B4A007E9EF3 /* libavresample.a */; };
+		D7AD57C91CCF7B4A007E9EF3 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57B91CCF7B4A007E9EF3 /* librtmp.a */; };
+		D7AD57CA1CCF7B4A007E9EF3 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57BA1CCF7B4A007E9EF3 /* libswresample.a */; };
+		D7AD57CB1CCF7B4A007E9EF3 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57BB1CCF7B4A007E9EF3 /* libswscale.a */; };
+		D7AD57CC1CCF7B4A007E9EF3 /* libboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57BC1CCF7B4A007E9EF3 /* libboost.a */; };
+		D7AD57CD1CCF7B4A007E9EF3 /* libcde-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57BD1CCF7B4A007E9EF3 /* libcde-sdk.a */; };
+		D7AD57CE1CCF7B4A007E9EF3 /* libReachbility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57BE1CCF7B4A007E9EF3 /* libReachbility.a */; };
+		D7AD57CF1CCF7B4A007E9EF3 /* libZipArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57BF1CCF7B4A007E9EF3 /* libZipArchive.a */; };
+		D7AD57D01CCF7B4A007E9EF3 /* zlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57C01CCF7B4A007E9EF3 /* zlib.a */; };
+		D7AD57D11CCF7B4A007E9EF3 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57C11CCF7B4A007E9EF3 /* libcrypto.a */; };
+		D7AD57D21CCF7B4A007E9EF3 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57C21CCF7B4A007E9EF3 /* libcurl.a */; };
+		D7AD57D31CCF7B4A007E9EF3 /* libglog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57C31CCF7B4A007E9EF3 /* libglog.a */; };
+		D7AD57D41CCF7B4A007E9EF3 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57C41CCF7B4A007E9EF3 /* libssl.a */; };
+		D7AD57D61CCF7B59007E9EF3 /* libLECPlayerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57D51CCF7B59007E9EF3 /* libLECPlayerSDK.a */; };
+		D7AD57D91CCF7B86007E9EF3 /* LCPlayerResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7AD57D71CCF7B86007E9EF3 /* LCPlayerResource.bundle */; };
+		D7AD57DA1CCF7B86007E9EF3 /* LCInfoResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7AD57D81CCF7B86007E9EF3 /* LCInfoResource.bundle */; };
+		D7AD57DC1CCF7C1C007E9EF3 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57DB1CCF7C1C007E9EF3 /* libz.1.2.5.tbd */; };
+		D7AD57DE1CCF7C22007E9EF3 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57DD1CCF7C22007E9EF3 /* libxml2.2.tbd */; };
+		D7AD57E01CCF7C28007E9EF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57DF1CCF7C28007E9EF3 /* CoreLocation.framework */; };
+		D7AD57E21CCF7C2C007E9EF3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57E11CCF7C2C007E9EF3 /* CoreMedia.framework */; };
+		D7AD57E41CCF7C31007E9EF3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57E31CCF7C31007E9EF3 /* AudioToolbox.framework */; };
+		D7AD57E61CCF7C3A007E9EF3 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57E51CCF7C3A007E9EF3 /* VideoToolbox.framework */; };
+		D7AD57E81CCF7C4B007E9EF3 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57E71CCF7C4B007E9EF3 /* libstdc++.6.0.9.tbd */; };
+		D7AD57EA1CCF7C52007E9EF3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57E91CCF7C52007E9EF3 /* libz.tbd */; };
+		D7AD57EE1CCF7C65007E9EF3 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57ED1CCF7C65007E9EF3 /* libiconv.tbd */; };
+		D7AD57F01CCF7C73007E9EF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57EF1CCF7C73007E9EF3 /* SystemConfiguration.framework */; };
+		D7AD57F21CCF7C77007E9EF3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57F11CCF7C77007E9EF3 /* JavaScriptCore.framework */; };
+		D7AD57F41CCF7C7E007E9EF3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57F31CCF7C7E007E9EF3 /* CoreTelephony.framework */; };
+		D7AD57F61CCF7C82007E9EF3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57F51CCF7C82007E9EF3 /* CoreData.framework */; };
+		D7AD57F81CCF7C89007E9EF3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57F71CCF7C89007E9EF3 /* MediaPlayer.framework */; };
+		D7AD57FA1CCF7C8E007E9EF3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57F91CCF7C8E007E9EF3 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +60,40 @@
 		D7AD57A91CCF7AB2007E9EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7AD57AC1CCF7AB2007E9EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7AD57AE1CCF7AB2007E9EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AD57B51CCF7B4A007E9EF3 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../RefLibs/SDK_4.0/Libs/libavcodec.a; sourceTree = "<group>"; };
+		D7AD57B61CCF7B4A007E9EF3 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../RefLibs/SDK_4.0/Libs/libavutil.a; sourceTree = "<group>"; };
+		D7AD57B71CCF7B4A007E9EF3 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../RefLibs/SDK_4.0/Libs/libavformat.a; sourceTree = "<group>"; };
+		D7AD57B81CCF7B4A007E9EF3 /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavresample.a; path = ../RefLibs/SDK_4.0/Libs/libavresample.a; sourceTree = "<group>"; };
+		D7AD57B91CCF7B4A007E9EF3 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librtmp.a; path = ../RefLibs/SDK_4.0/Libs/librtmp.a; sourceTree = "<group>"; };
+		D7AD57BA1CCF7B4A007E9EF3 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../RefLibs/SDK_4.0/Libs/libswresample.a; sourceTree = "<group>"; };
+		D7AD57BB1CCF7B4A007E9EF3 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../RefLibs/SDK_4.0/Libs/libswscale.a; sourceTree = "<group>"; };
+		D7AD57BC1CCF7B4A007E9EF3 /* libboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost.a; path = ../RefLibs/SDK_4.0/Libs/libboost.a; sourceTree = "<group>"; };
+		D7AD57BD1CCF7B4A007E9EF3 /* libcde-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcde-sdk.a"; path = "../RefLibs/SDK_4.0/Libs/libcde-sdk.a"; sourceTree = "<group>"; };
+		D7AD57BE1CCF7B4A007E9EF3 /* libReachbility.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReachbility.a; path = ../RefLibs/SDK_4.0/Libs/libReachbility.a; sourceTree = "<group>"; };
+		D7AD57BF1CCF7B4A007E9EF3 /* libZipArchive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZipArchive.a; path = ../RefLibs/SDK_4.0/Libs/libZipArchive.a; sourceTree = "<group>"; };
+		D7AD57C01CCF7B4A007E9EF3 /* zlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = zlib.a; path = ../RefLibs/SDK_4.0/Libs/zlib.a; sourceTree = "<group>"; };
+		D7AD57C11CCF7B4A007E9EF3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../RefLibs/SDK_4.0/Libs/libcrypto.a; sourceTree = "<group>"; };
+		D7AD57C21CCF7B4A007E9EF3 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../RefLibs/SDK_4.0/Libs/libcurl.a; sourceTree = "<group>"; };
+		D7AD57C31CCF7B4A007E9EF3 /* libglog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglog.a; path = ../RefLibs/SDK_4.0/Libs/libglog.a; sourceTree = "<group>"; };
+		D7AD57C41CCF7B4A007E9EF3 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../RefLibs/SDK_4.0/Libs/libssl.a; sourceTree = "<group>"; };
+		D7AD57D51CCF7B59007E9EF3 /* libLECPlayerSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLECPlayerSDK.a; path = ../RefLibs/SDK_4.0/libLECPlayerSDK.a; sourceTree = "<group>"; };
+		D7AD57D71CCF7B86007E9EF3 /* LCPlayerResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LCPlayerResource.bundle; path = RefLibs/SDK_4.0/LCPlayerResource.bundle; sourceTree = SOURCE_ROOT; };
+		D7AD57D81CCF7B86007E9EF3 /* LCInfoResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LCInfoResource.bundle; path = RefLibs/SDK_4.0/LCInfoResource.bundle; sourceTree = SOURCE_ROOT; };
+		D7AD57DB1CCF7C1C007E9EF3 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		D7AD57DD1CCF7C22007E9EF3 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		D7AD57DF1CCF7C28007E9EF3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D7AD57E11CCF7C2C007E9EF3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D7AD57E31CCF7C31007E9EF3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D7AD57E51CCF7C3A007E9EF3 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		D7AD57E71CCF7C4B007E9EF3 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		D7AD57E91CCF7C52007E9EF3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D7AD57ED1CCF7C65007E9EF3 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		D7AD57EF1CCF7C73007E9EF3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D7AD57F11CCF7C77007E9EF3 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D7AD57F31CCF7C7E007E9EF3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D7AD57F51CCF7C82007E9EF3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D7AD57F71CCF7C89007E9EF3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D7AD57F91CCF7C8E007E9EF3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +101,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7AD57FA1CCF7C8E007E9EF3 /* AdSupport.framework in Frameworks */,
+				D7AD57F81CCF7C89007E9EF3 /* MediaPlayer.framework in Frameworks */,
+				D7AD57F61CCF7C82007E9EF3 /* CoreData.framework in Frameworks */,
+				D7AD57F41CCF7C7E007E9EF3 /* CoreTelephony.framework in Frameworks */,
+				D7AD57F21CCF7C77007E9EF3 /* JavaScriptCore.framework in Frameworks */,
+				D7AD57F01CCF7C73007E9EF3 /* SystemConfiguration.framework in Frameworks */,
+				D7AD57EE1CCF7C65007E9EF3 /* libiconv.tbd in Frameworks */,
+				D7AD57EA1CCF7C52007E9EF3 /* libz.tbd in Frameworks */,
+				D7AD57E81CCF7C4B007E9EF3 /* libstdc++.6.0.9.tbd in Frameworks */,
+				D7AD57E61CCF7C3A007E9EF3 /* VideoToolbox.framework in Frameworks */,
+				D7AD57E41CCF7C31007E9EF3 /* AudioToolbox.framework in Frameworks */,
+				D7AD57E21CCF7C2C007E9EF3 /* CoreMedia.framework in Frameworks */,
+				D7AD57E01CCF7C28007E9EF3 /* CoreLocation.framework in Frameworks */,
+				D7AD57DE1CCF7C22007E9EF3 /* libxml2.2.tbd in Frameworks */,
+				D7AD57DC1CCF7C1C007E9EF3 /* libz.1.2.5.tbd in Frameworks */,
+				D7AD57D61CCF7B59007E9EF3 /* libLECPlayerSDK.a in Frameworks */,
+				D7AD57D41CCF7B4A007E9EF3 /* libssl.a in Frameworks */,
+				D7AD57C91CCF7B4A007E9EF3 /* librtmp.a in Frameworks */,
+				D7AD57D21CCF7B4A007E9EF3 /* libcurl.a in Frameworks */,
+				D7AD57CD1CCF7B4A007E9EF3 /* libcde-sdk.a in Frameworks */,
+				D7AD57CB1CCF7B4A007E9EF3 /* libswscale.a in Frameworks */,
+				D7AD57CF1CCF7B4A007E9EF3 /* libZipArchive.a in Frameworks */,
+				D7AD57C71CCF7B4A007E9EF3 /* libavformat.a in Frameworks */,
+				D7AD57CE1CCF7B4A007E9EF3 /* libReachbility.a in Frameworks */,
+				D7AD57D01CCF7B4A007E9EF3 /* zlib.a in Frameworks */,
+				D7AD57C81CCF7B4A007E9EF3 /* libavresample.a in Frameworks */,
+				D7AD57C61CCF7B4A007E9EF3 /* libavutil.a in Frameworks */,
+				D7AD57CA1CCF7B4A007E9EF3 /* libswresample.a in Frameworks */,
+				D7AD57D31CCF7B4A007E9EF3 /* libglog.a in Frameworks */,
+				D7AD57D11CCF7B4A007E9EF3 /* libcrypto.a in Frameworks */,
+				D7AD57C51CCF7B4A007E9EF3 /* libavcodec.a in Frameworks */,
+				D7AD57CC1CCF7B4A007E9EF3 /* libboost.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +142,21 @@
 		D7AD57911CCF7AB1007E9EF3 = {
 			isa = PBXGroup;
 			children = (
+				D7AD57F91CCF7C8E007E9EF3 /* AdSupport.framework */,
+				D7AD57F71CCF7C89007E9EF3 /* MediaPlayer.framework */,
+				D7AD57F51CCF7C82007E9EF3 /* CoreData.framework */,
+				D7AD57F31CCF7C7E007E9EF3 /* CoreTelephony.framework */,
+				D7AD57F11CCF7C77007E9EF3 /* JavaScriptCore.framework */,
+				D7AD57EF1CCF7C73007E9EF3 /* SystemConfiguration.framework */,
+				D7AD57ED1CCF7C65007E9EF3 /* libiconv.tbd */,
+				D7AD57E91CCF7C52007E9EF3 /* libz.tbd */,
+				D7AD57E71CCF7C4B007E9EF3 /* libstdc++.6.0.9.tbd */,
+				D7AD57E51CCF7C3A007E9EF3 /* VideoToolbox.framework */,
+				D7AD57E31CCF7C31007E9EF3 /* AudioToolbox.framework */,
+				D7AD57E11CCF7C2C007E9EF3 /* CoreMedia.framework */,
+				D7AD57DF1CCF7C28007E9EF3 /* CoreLocation.framework */,
+				D7AD57DD1CCF7C22007E9EF3 /* libxml2.2.tbd */,
+				D7AD57DB1CCF7C1C007E9EF3 /* libz.1.2.5.tbd */,
 				D7AD579C1CCF7AB1007E9EF3 /* LCDemo */,
 				D7AD579B1CCF7AB1007E9EF3 /* Products */,
 			);
@@ -74,9 +189,36 @@
 		D7AD579D1CCF7AB1007E9EF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7AD57B41CCF7B1B007E9EF3 /* Libs */,
 				D7AD579E1CCF7AB1007E9EF3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7AD57B41CCF7B1B007E9EF3 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				D7AD57D71CCF7B86007E9EF3 /* LCPlayerResource.bundle */,
+				D7AD57D81CCF7B86007E9EF3 /* LCInfoResource.bundle */,
+				D7AD57D51CCF7B59007E9EF3 /* libLECPlayerSDK.a */,
+				D7AD57B51CCF7B4A007E9EF3 /* libavcodec.a */,
+				D7AD57B61CCF7B4A007E9EF3 /* libavutil.a */,
+				D7AD57B71CCF7B4A007E9EF3 /* libavformat.a */,
+				D7AD57B81CCF7B4A007E9EF3 /* libavresample.a */,
+				D7AD57B91CCF7B4A007E9EF3 /* librtmp.a */,
+				D7AD57BA1CCF7B4A007E9EF3 /* libswresample.a */,
+				D7AD57BB1CCF7B4A007E9EF3 /* libswscale.a */,
+				D7AD57BC1CCF7B4A007E9EF3 /* libboost.a */,
+				D7AD57BD1CCF7B4A007E9EF3 /* libcde-sdk.a */,
+				D7AD57BE1CCF7B4A007E9EF3 /* libReachbility.a */,
+				D7AD57BF1CCF7B4A007E9EF3 /* libZipArchive.a */,
+				D7AD57C01CCF7B4A007E9EF3 /* zlib.a */,
+				D7AD57C11CCF7B4A007E9EF3 /* libcrypto.a */,
+				D7AD57C21CCF7B4A007E9EF3 /* libcurl.a */,
+				D7AD57C31CCF7B4A007E9EF3 /* libglog.a */,
+				D7AD57C41CCF7B4A007E9EF3 /* libssl.a */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +280,9 @@
 			files = (
 				D7AD57AD1CCF7AB2007E9EF3 /* LaunchScreen.storyboard in Resources */,
 				D7AD57AA1CCF7AB2007E9EF3 /* Assets.xcassets in Resources */,
+				D7AD57DA1CCF7B86007E9EF3 /* LCInfoResource.bundle in Resources */,
 				D7AD57A81CCF7AB2007E9EF3 /* Main.storyboard in Resources */,
+				D7AD57D91CCF7B86007E9EF3 /* LCPlayerResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -252,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -263,10 +407,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/RefLibs\"/**";
 				INFOPLIST_FILE = LCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/RefLibs\"/**",
+					"$(PROJECT_DIR)/RefLibs/SDK_4.0",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/RefLibs/SDK_4.0/libLECPlayerSDK.a\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yate.LCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9587efed-85b6-4f08-b131-8ea55eda9a27";
 			};
 			name = Debug;
 		};
@@ -274,10 +429,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/RefLibs\"/**";
 				INFOPLIST_FILE = LCDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/RefLibs\"/**",
+					"$(PROJECT_DIR)/RefLibs/SDK_4.0",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/RefLibs/SDK_4.0/libLECPlayerSDK.a\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yate.LCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9587efed-85b6-4f08-b131-8ea55eda9a27";
 			};
 			name = Release;
 		};
