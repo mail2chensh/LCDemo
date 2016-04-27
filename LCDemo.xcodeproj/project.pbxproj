@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D7AD579F1CCF7AB1007E9EF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AD579E1CCF7AB1007E9EF3 /* main.m */; };
-		D7AD57A21CCF7AB2007E9EF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AD57A11CCF7AB2007E9EF3 /* AppDelegate.m */; };
+		D7AD57A21CCF7AB2007E9EF3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7AD57A11CCF7AB2007E9EF3 /* AppDelegate.mm */; };
 		D7AD57A51CCF7AB2007E9EF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AD57A41CCF7AB2007E9EF3 /* ViewController.m */; };
 		D7AD57A81CCF7AB2007E9EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AD57A61CCF7AB2007E9EF3 /* Main.storyboard */; };
 		D7AD57AA1CCF7AB2007E9EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AD57A91CCF7AB2007E9EF3 /* Assets.xcassets */; };
@@ -53,7 +53,7 @@
 		D7AD579A1CCF7AB1007E9EF3 /* LCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AD579E1CCF7AB1007E9EF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7AD57A01CCF7AB1007E9EF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D7AD57A11CCF7AB2007E9EF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7AD57A11CCF7AB2007E9EF3 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		D7AD57A31CCF7AB2007E9EF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D7AD57A41CCF7AB2007E9EF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7AD57A71CCF7AB2007E9EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,36 +103,36 @@
 			files = (
 				D7AD57FA1CCF7C8E007E9EF3 /* AdSupport.framework in Frameworks */,
 				D7AD57F81CCF7C89007E9EF3 /* MediaPlayer.framework in Frameworks */,
+				D7AD57CB1CCF7B4A007E9EF3 /* libswscale.a in Frameworks */,
+				D7AD57D41CCF7B4A007E9EF3 /* libssl.a in Frameworks */,
 				D7AD57F61CCF7C82007E9EF3 /* CoreData.framework in Frameworks */,
 				D7AD57F41CCF7C7E007E9EF3 /* CoreTelephony.framework in Frameworks */,
+				D7AD57D61CCF7B59007E9EF3 /* libLECPlayerSDK.a in Frameworks */,
+				D7AD57D21CCF7B4A007E9EF3 /* libcurl.a in Frameworks */,
 				D7AD57F21CCF7C77007E9EF3 /* JavaScriptCore.framework in Frameworks */,
 				D7AD57F01CCF7C73007E9EF3 /* SystemConfiguration.framework in Frameworks */,
+				D7AD57CF1CCF7B4A007E9EF3 /* libZipArchive.a in Frameworks */,
 				D7AD57EE1CCF7C65007E9EF3 /* libiconv.tbd in Frameworks */,
+				D7AD57C81CCF7B4A007E9EF3 /* libavresample.a in Frameworks */,
 				D7AD57EA1CCF7C52007E9EF3 /* libz.tbd in Frameworks */,
+				D7AD57CA1CCF7B4A007E9EF3 /* libswresample.a in Frameworks */,
+				D7AD57C61CCF7B4A007E9EF3 /* libavutil.a in Frameworks */,
 				D7AD57E81CCF7C4B007E9EF3 /* libstdc++.6.0.9.tbd in Frameworks */,
 				D7AD57E61CCF7C3A007E9EF3 /* VideoToolbox.framework in Frameworks */,
+				D7AD57C91CCF7B4A007E9EF3 /* librtmp.a in Frameworks */,
 				D7AD57E41CCF7C31007E9EF3 /* AudioToolbox.framework in Frameworks */,
+				D7AD57CC1CCF7B4A007E9EF3 /* libboost.a in Frameworks */,
 				D7AD57E21CCF7C2C007E9EF3 /* CoreMedia.framework in Frameworks */,
 				D7AD57E01CCF7C28007E9EF3 /* CoreLocation.framework in Frameworks */,
-				D7AD57DE1CCF7C22007E9EF3 /* libxml2.2.tbd in Frameworks */,
-				D7AD57DC1CCF7C1C007E9EF3 /* libz.1.2.5.tbd in Frameworks */,
-				D7AD57D61CCF7B59007E9EF3 /* libLECPlayerSDK.a in Frameworks */,
-				D7AD57D41CCF7B4A007E9EF3 /* libssl.a in Frameworks */,
-				D7AD57C91CCF7B4A007E9EF3 /* librtmp.a in Frameworks */,
-				D7AD57D21CCF7B4A007E9EF3 /* libcurl.a in Frameworks */,
-				D7AD57CD1CCF7B4A007E9EF3 /* libcde-sdk.a in Frameworks */,
-				D7AD57CB1CCF7B4A007E9EF3 /* libswscale.a in Frameworks */,
-				D7AD57CF1CCF7B4A007E9EF3 /* libZipArchive.a in Frameworks */,
-				D7AD57C71CCF7B4A007E9EF3 /* libavformat.a in Frameworks */,
 				D7AD57CE1CCF7B4A007E9EF3 /* libReachbility.a in Frameworks */,
-				D7AD57D01CCF7B4A007E9EF3 /* zlib.a in Frameworks */,
-				D7AD57C81CCF7B4A007E9EF3 /* libavresample.a in Frameworks */,
-				D7AD57C61CCF7B4A007E9EF3 /* libavutil.a in Frameworks */,
-				D7AD57CA1CCF7B4A007E9EF3 /* libswresample.a in Frameworks */,
-				D7AD57D31CCF7B4A007E9EF3 /* libglog.a in Frameworks */,
 				D7AD57D11CCF7B4A007E9EF3 /* libcrypto.a in Frameworks */,
 				D7AD57C51CCF7B4A007E9EF3 /* libavcodec.a in Frameworks */,
-				D7AD57CC1CCF7B4A007E9EF3 /* libboost.a in Frameworks */,
+				D7AD57C71CCF7B4A007E9EF3 /* libavformat.a in Frameworks */,
+				D7AD57D31CCF7B4A007E9EF3 /* libglog.a in Frameworks */,
+				D7AD57DE1CCF7C22007E9EF3 /* libxml2.2.tbd in Frameworks */,
+				D7AD57DC1CCF7C1C007E9EF3 /* libz.1.2.5.tbd in Frameworks */,
+				D7AD57D01CCF7B4A007E9EF3 /* zlib.a in Frameworks */,
+				D7AD57CD1CCF7B4A007E9EF3 /* libcde-sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				D7AD57A01CCF7AB1007E9EF3 /* AppDelegate.h */,
-				D7AD57A11CCF7AB2007E9EF3 /* AppDelegate.m */,
+				D7AD57A11CCF7AB2007E9EF3 /* AppDelegate.mm */,
 				D7AD57A31CCF7AB2007E9EF3 /* ViewController.h */,
 				D7AD57A41CCF7AB2007E9EF3 /* ViewController.m */,
 				D7AD57A61CCF7AB2007E9EF3 /* Main.storyboard */,
@@ -294,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AD57A51CCF7AB2007E9EF3 /* ViewController.m in Sources */,
-				D7AD57A21CCF7AB2007E9EF3 /* AppDelegate.m in Sources */,
+				D7AD57A21CCF7AB2007E9EF3 /* AppDelegate.mm in Sources */,
 				D7AD579F1CCF7AB1007E9EF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,16 +410,18 @@
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/RefLibs\"/**";
 				INFOPLIST_FILE = LCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SRCROOT)/RefLibs\"/**",
 					"$(PROJECT_DIR)/RefLibs/SDK_4.0",
+					"$(PROJECT_DIR)/RefLibs/SDK_4.0/Libs",
 				);
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"\"$(SRCROOT)/RefLibs/SDK_4.0/libLECPlayerSDK.a\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yate.LCDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.cloud.lecloudsdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9587efed-85b6-4f08-b131-8ea55eda9a27";
 			};
@@ -432,16 +434,18 @@
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/RefLibs\"/**";
 				INFOPLIST_FILE = LCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SRCROOT)/RefLibs\"/**",
 					"$(PROJECT_DIR)/RefLibs/SDK_4.0",
+					"$(PROJECT_DIR)/RefLibs/SDK_4.0/Libs",
 				);
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"\"$(SRCROOT)/RefLibs/SDK_4.0/libLECPlayerSDK.a\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yate.LCDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.cloud.lecloudsdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9587efed-85b6-4f08-b131-8ea55eda9a27";
 			};
@@ -466,6 +470,7 @@
 				D7AD57B31CCF7AB2007E9EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
