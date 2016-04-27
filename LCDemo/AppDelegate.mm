@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "LCPlayerService.h"
+#import "RootViewController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -17,6 +21,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    /*
+     预加载播放器配置信息
+     */
+    [[LCPlayerService sharedService] startService];
+    [[LCPlayerService sharedService] setConsoleLogLevel:LCPlayerServiceLogLevelInfo];
+    [[LCPlayerService sharedService] setFileLogLevel:LCPlayerServiceLogLevelInfo];
+    NSLog(@"SDK-Build:%@,Date:%@",[LCPlayerService sdkBuildVersion],[[LCPlayerService sharedService] sdkReleaseDate]);
+    
+    /*
+     确保App启动的屏幕方向
+     */
+    [[UIApplication sharedApplication] setStatusBarOrientation:(UIInterfaceOrientationPortrait) animated:NO];
+    
+    
+    RootViewController *rootVC = [[RootViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

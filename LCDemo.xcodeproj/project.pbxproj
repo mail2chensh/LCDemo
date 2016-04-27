@@ -47,6 +47,9 @@
 		D7AD57F61CCF7C82007E9EF3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57F51CCF7C82007E9EF3 /* CoreData.framework */; };
 		D7AD57F81CCF7C89007E9EF3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57F71CCF7C89007E9EF3 /* MediaPlayer.framework */; };
 		D7AD57FA1CCF7C8E007E9EF3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD57F91CCF7C8E007E9EF3 /* AdSupport.framework */; };
+		D7EDDB6F1CD08C5400993CA1 /* LCVodUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EDDB6A1CD08C5400993CA1 /* LCVodUIViewController.m */; };
+		D7EDDB701CD08C5400993CA1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EDDB6D1CD08C5400993CA1 /* RootViewController.m */; };
+		D7EDDB711CD08C5400993CA1 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7EDDB6E1CD08C5400993CA1 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +97,12 @@
 		D7AD57F51CCF7C82007E9EF3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D7AD57F71CCF7C89007E9EF3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		D7AD57F91CCF7C8E007E9EF3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D7EDDB691CD08C5400993CA1 /* LCVodUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVodUIViewController.h; sourceTree = "<group>"; };
+		D7EDDB6A1CD08C5400993CA1 /* LCVodUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVodUIViewController.m; sourceTree = "<group>"; };
+		D7EDDB6B1CD08C5400993CA1 /* MacroDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefines.h; sourceTree = "<group>"; };
+		D7EDDB6C1CD08C5400993CA1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D7EDDB6D1CD08C5400993CA1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D7EDDB6E1CD08C5400993CA1 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +186,12 @@
 				D7AD57A11CCF7AB2007E9EF3 /* AppDelegate.mm */,
 				D7AD57A31CCF7AB2007E9EF3 /* ViewController.h */,
 				D7AD57A41CCF7AB2007E9EF3 /* ViewController.m */,
+				D7EDDB691CD08C5400993CA1 /* LCVodUIViewController.h */,
+				D7EDDB6A1CD08C5400993CA1 /* LCVodUIViewController.m */,
+				D7EDDB6B1CD08C5400993CA1 /* MacroDefines.h */,
+				D7EDDB6C1CD08C5400993CA1 /* RootViewController.h */,
+				D7EDDB6D1CD08C5400993CA1 /* RootViewController.m */,
+				D7EDDB6E1CD08C5400993CA1 /* RootViewController.xib */,
 				D7AD57A61CCF7AB2007E9EF3 /* Main.storyboard */,
 				D7AD57A91CCF7AB2007E9EF3 /* Assets.xcassets */,
 				D7AD57AB1CCF7AB2007E9EF3 /* LaunchScreen.storyboard */,
@@ -280,6 +295,7 @@
 			files = (
 				D7AD57AD1CCF7AB2007E9EF3 /* LaunchScreen.storyboard in Resources */,
 				D7AD57AA1CCF7AB2007E9EF3 /* Assets.xcassets in Resources */,
+				D7EDDB711CD08C5400993CA1 /* RootViewController.xib in Resources */,
 				D7AD57DA1CCF7B86007E9EF3 /* LCInfoResource.bundle in Resources */,
 				D7AD57A81CCF7AB2007E9EF3 /* Main.storyboard in Resources */,
 				D7AD57D91CCF7B86007E9EF3 /* LCPlayerResource.bundle in Resources */,
@@ -296,6 +312,8 @@
 				D7AD57A51CCF7AB2007E9EF3 /* ViewController.m in Sources */,
 				D7AD57A21CCF7AB2007E9EF3 /* AppDelegate.mm in Sources */,
 				D7AD579F1CCF7AB1007E9EF3 /* main.m in Sources */,
+				D7EDDB6F1CD08C5400993CA1 /* LCVodUIViewController.m in Sources */,
+				D7EDDB701CD08C5400993CA1 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
